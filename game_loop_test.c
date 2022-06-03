@@ -8,8 +8,8 @@ int main()
 
 	for (int tries = 1; tries <= 3; ++tries)
 	{
-		printf("Game Loop program\n");
-		printf("%d\n", tries);
+		printf("Start Game: ");
+		printf("Game Loop program\t%d\n", tries);
 	}
 
 	return 0;
