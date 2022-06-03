@@ -6,8 +6,9 @@ int main()
 {
 	// count town 1 through 3
 
-	for (int tries = 1; tries <= 3; tries++)
+	for (int tries = 1; tries <= 3; ++tries)
 	{
+		printf("Game Loop program\n");
 		printf("%d\n", tries);
 	}
 
